@@ -25,7 +25,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**Demo**
 ![Farmers Market Finder Demo](demo/demo.gif)
 
 ### you can see demo here
