@@ -27,3 +27,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Demo**
 ![Farmers Market Finder Demo](demo/demo.gif)
+
+### you can see demo here
+
+[Demo](https://theme-switchers.netlify.app/)
