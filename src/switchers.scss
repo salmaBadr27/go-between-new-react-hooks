@@ -1,0 +1,196 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #ffffff;
+	padding: 0;
+	height: 100vh;
+	color: #222;
+}
+
+/*Theme Options*/
+.theme-options {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: right;
+	padding: 20px 0;
+	div {
+		cursor: pointer;
+		width: 40px;
+		height: 40px;
+		border-radius: 10px;
+		margin: 2px 10px;
+		border: 1px solid #fff;
+		display: inline-block;
+		opacity: 0.5;
+		&.active {
+			opacity: 1;
+			border: 2px solid #000;
+		}
+	}
+	#white-theme {
+		background-color: #ffffff;
+	}
+	#blue-theme {
+		background-color: #1a41c1;
+	}
+	#orange-theme {
+		background-color: #b64b1e;
+	}
+	#green-theme {
+		background-color: #0e9415;
+	}
+	#purple-theme {
+		background-color: #940e72;
+	}
+	#black-theme {
+		background-color: #222;
+	}
+}
+/*End theme Options*/
+
+/*Start Content Style*/
+.content-box {
+	margin: 0 auto;
+	background-color: #eee;
+	color: #222;
+	border-radius: 8px;
+	padding: 30px 30px 40px 40px;
+	max-width: 800px;
+	h3 {
+		line-height: 1.2;
+		margin: 0;
+		font-size: 26px;
+	}
+	button {
+		background-color: #eee;
+		color: #222;
+		border-radius: 8px;
+		height: 50px;
+		font-size: 20px;
+	}
+}
+/*End content Style*/
+
+/* Start Themeing App*/
+.App.green-theme {
+	background-color: #c3e3c1;
+	.content-box {
+		background-color: #63ce5c;
+		h3 {
+			color: rgb(33, 93, 18);
+		}
+		p {
+			color: #fff;
+		}
+		button {
+			background-color: #c3e3c1;
+			color: rgb(33, 93, 18);
+			border-radius: 8px;
+			height: 50px;
+			font-size: 20px;
+		}
+	}
+}
+.App.black-theme {
+	background-color: #5c5c5c;
+	.content-box {
+		background-color: #333;
+		h3 {
+			color: #ffffff;
+		}
+		p {
+			color: #ccc;
+		}
+		button {
+			background-color: #fff;
+			color: #000;
+			border-radius: 8px;
+			height: 50px;
+			font-size: 20px;
+		}
+	}
+}
+.App.purple-theme {
+	background-color: #940e72d7;
+	.content-box {
+		background-color: #940e72d7;
+		h3 {
+			color: #fff;
+		}
+		p {
+			color: #c880b6;
+		}
+		button {
+			background-color: #c880b6;
+			color: #fff;
+			border-radius: 8px;
+			height: 50px;
+			font-size: 20px;
+		}
+	}
+}
+.App.blue-theme {
+	background-color: #1a41c1ca;
+	.content-box {
+		background-color: #1a41c1ca;
+		h3 {
+			color: #fff;
+		}
+		p {
+			color: #fff;
+		}
+		button {
+			background-color: #4968ce;
+			color: #fff;
+			border-radius: 8px;
+			height: 50px;
+			font-size: 20px;
+		}
+	}
+}
+.App.orange-theme {
+	background-color: #cc6031bc;
+	.content-box {
+		background-color: #cc6031bc;
+		h3 {
+			color: #993f19;
+		}
+		p {
+			color: #d4b45dfb;
+		}
+		button {
+			background-color: #d4b45dfb;
+			color: #993f19;
+			border-radius: 8px;
+			height: 50px;
+			font-size: 20px;
+		}
+	}
+}
+.App.white-theme {
+	background-color: rgb(224, 213, 213);
+	.content-box {
+		background-color: #fff;
+		h3 {
+			color: #000;
+		}
+		p {
+			color: #000;
+		}
+		button {
+			background-color: #000;
+			color: #fff;
+			border-radius: 8px;
+			height: 50px;
+			font-size: 20px;
+		}
+	}
+}
+
+/* End Theming App*/
